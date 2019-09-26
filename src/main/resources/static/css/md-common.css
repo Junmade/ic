@@ -1,0 +1,24 @@
+
+
+html, body {
+    height: 100%;
+}
+
+
+
+/* 限制文本行数 3 */
+.md-textLine-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+/* 向上间距 30px */
+.md-context {
+    margin-top: 30px;
+}
+
+

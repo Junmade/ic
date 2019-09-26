@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>手机热卖榜</title>
+
+
+    <link rel="stylesheet" href="/bootstrap-3.3.7/css/bootstrap.min.css" >
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/bootstrap-table/bootstrap-table.min.css">
+
+    <!--  自定义常用css -->
+    <link rel="stylesheet" href="/css/md-common.css">
+
+
+    <style>
+        .Ptable-item, .p-parameter {
+            border-bottom: 1px solid #eee;
+        }
+
+        dl {
+            margin: 0;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- 商品ID -->
+    <input id="wareId" th:value="${wareId}" hidden="hidden">
+    <div id="content" class="col-sm-12 md-context">
+
+    </div>
+
+</body>
+
+<script src="/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+
+<script src="/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="/bootstrap-table/bootstrap-table.min.js"></script>
+<!-- Latest compiled and minified Locales -->
+<script src="/bootstrap-table/locale/bootstrap-table-zh-CN.min.js"></script>
+
+
+<script src="/js/jd/phoneParameter.js"></script>
+</html>
